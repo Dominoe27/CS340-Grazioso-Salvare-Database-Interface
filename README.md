@@ -1,6 +1,17 @@
-How do you write programs that are maintainable, readable, and adaptable?
-Writing clean and modular code is essential for long-term maintainability. I reused the CRUD module I created in Project One to connect the dashboard to the MongoDB database. By keeping this module focused solely on database operations (Create, Read, Update, Delete), I was able to separate the data logic from the visualization code. This made the dashboard code easier to read and update, and it kept functionality organized. This approach also makes the module reusable in future projects; whether for batch data processing, reporting tools, or administrative interfaces.
-How do you approach a problem as a computer scientist?
-I begin by analyzing the requirements and breaking down the problem into smaller, manageable parts. For Grazioso Salvare’s dashboard, I first ensured database connectivity and then incrementally built out the interactive UI features. Compared to earlier courses, this project required deeper integration of back-end and front-end logic. Going forward, I would continue using modular CRUD classes and start with data validation and schema planning early to ensure scalability for different client use cases.
-What do computer scientists do, and why does it matter?
-Computer scientists solve real-world problems by designing systems that manage, process, and visualize data efficiently. In this project, I created a tool that allows Grazioso Salvare to easily filter and analyze animals by rescue type and location. This dashboard helps end users act faster and more effectively, which is critical in time sensitive rescue scenarios. Projects like this demonstrate how software can directly impact operational efficiency and contribute to a mission driven organization.
+## Reflection: Writing Maintainable, Readable, and Adaptable Code
+
+For me, writing code that actually holds up over time comes down to keeping things clean and modular. In this project, I reused the CRUD module I originally built in Project One to handle all the interactions with the MongoDB database. Keeping that module focused strictly on Create, Read, Update, and Delete let me separate the data logic from everything happening in the dashboard. 
+
+That separation made the dashboard way easier to follow and update, and it kept the whole project more organized in general. It also means the CRUD module is something I can pull into future work without having to rebuild the same functionality each time.
+
+## How I Approach Problems as a Computer Scientist
+
+My approach always starts with breaking the problem down into smaller steps so I’m not trying to solve everything at once. With the Grazioso Salvare dashboard, the first thing I did was make sure the database connection was solid. After that, I added features piece by piece until the full interactive experience came together.
+
+Compared to my earlier coursework, this project forced me to think more about how the back-end and front-end talk to each other. Moving forward, I plan to keep using modular CRUD setups and spend more time up front on validation and planning out my data structure so the project scales cleanly for different use cases.
+
+## What Computer Scientists Do and Why It Matters
+
+At the end of the day, computer scientists build systems that solve real problems and make people’s lives easier. In this project, I built a dashboard that gives Grazioso Salvare a faster and clearer way to analyze animals by rescue type, location, and other filters. That information helps them make quicker decisions in situations where time really matters.
+
+Projects like this show how software can directly support organizations with important missions and improve the way they operate. It’s a good reminder of why this field matters and why I enjoy doing this work.
